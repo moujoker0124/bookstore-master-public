@@ -3,7 +3,7 @@
 <mapper namespace="org.zdd.bookstore.model.dao.BookCategoryMapper">
   <resultMap id="BaseResultMap" type="org.zdd.bookstore.model.entity.BookCategory">
     <!--
-      WARNING - @mbg.generated
+      WARNING - @mbg.generated good
     -->
     <id column="cate_id" jdbcType="INTEGER" property="cateId" />
     <result column="parent_id" jdbcType="INTEGER" property="parentId" />
